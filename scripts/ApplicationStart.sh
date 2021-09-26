@@ -1,4 +1,5 @@
 #!/bin/bash
-# Iniciar o Servidor Web
+##### Start http service
 
+#sudo service httpd start
 sudo systemctl start httpd.service
